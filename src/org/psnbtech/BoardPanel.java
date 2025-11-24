@@ -218,7 +218,7 @@ public class BoardPanel extends JPanel {
 		 * entire tile.
 		 */
 		case SnakeBody:
-			g.setColor(Color.GREEN);
+			g.setColor(Color.RED);
 			g.fillRect(x, y, TILE_SIZE, TILE_SIZE);
 			break;
 			
@@ -232,7 +232,7 @@ public class BoardPanel extends JPanel {
 			g.fillRect(x, y, TILE_SIZE, TILE_SIZE);
 			
 			//Set the color to black so that we can start drawing the eyes.
-			g.setColor(Color.BLACK);
+			g.setColor(Color.GREEN);
 			
 			/*
 			 * The eyes will always 'face' the direction that the snake is
